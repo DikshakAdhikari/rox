@@ -7,8 +7,7 @@ dotenv.config()
 const app= express()
 mongooseConnect()
 app.use(cors({
-  origin: 'https://rox-client-seven.vercel.app', 
-  credentials:true
+  origin: '*'
 })); 
   
 app.use(express.json())
