@@ -1,1 +1,1 @@
-export const BASE_URI= "http://localhost:3002"
+export const BASE_URI= "https://rox-one.vercel.app"
