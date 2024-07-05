@@ -6,13 +6,8 @@ import productRouter from './routes/product.js'
 dotenv.config()
 const app= express()
 mongooseConnect()
-// app.use(cors({
-//     origin: 'https://dikshak-blogging.vercel.app', 
-//     credentials:true
-//   })); 
-
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: 'https://rox-client-seven.vercel.app', 
   credentials:true
 })); 
   
